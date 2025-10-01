@@ -47,7 +47,7 @@ func main() {
 			if len(args) < 3 {
 				fmt.Printf("❌ Please to make sure to follow the formula")
 				fmt.Println("Edit: edit <task desc> <id>")
-				return
+				continue
 			}
 			id, err := strconv.Atoi(args[2])
 			if err != nil {
