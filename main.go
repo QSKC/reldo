@@ -49,17 +49,17 @@ func main() {
 				fmt.Println("Edit: edit <task desc> <id>")
 				continue
 			}
-			id, err := strconv.Atoi(args[2])
+			id, err := strconv.Atoi(args[1])
 			if err != nil {
-				fmt.Println("Invalid command, ID must be number")
+				fmt.Println("❌ Invalid command, ID must be number")
 				continue
 			}
-			newDesc := strings.Join(args[1:], " ")
+			newDesc := strings.Join(args[2:], " ")
 			if err := editTask(id, newDesc); err != nil {
 				fmt.Println(err)
 				continue
 			}
-			fmt.Printf("Updated task #%d\n", id)
+			fmt.Printf("✅ Updated task #%d\n", id)
 
 		case "list", "ls":
 			todos, err := listTasks()
