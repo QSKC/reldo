@@ -1,0 +1,27 @@
+[
+ {
+  "ID": 1,
+  "Task": "add a clear terminal functionality",
+  "Done": true
+ },
+ {
+  "ID": 2,
+  "Task": "formatted strings work properly",
+  "Done": true
+ },
+ {
+  "ID": 3,
+  "Task": "add 'ls' case to list case",
+  "Done": true
+ },
+ {
+  "ID": 4,
+  "Task": "add edit function",
+  "Done": true
+ },
+ {
+  "ID": 5,
+  "Task": "search how to compile for linux",
+  "Done": true
+ }
+]
