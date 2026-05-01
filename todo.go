@@ -12,7 +12,7 @@ type Todo struct {
 	Done bool
 }
 
-const dataFile = "todos.json"
+const dataFile = "C:\\Users\\Amin\\Documents\\todos.json"
 
 // load todos from file
 func loadTodos() ([]Todo, error) {

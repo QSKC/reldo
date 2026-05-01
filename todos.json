@@ -27,6 +27,16 @@
  {
   "ID": 6,
   "Task": "totally fixed the fucking edit functionality",
+  "Done": true
+ },
+ {
+  "ID": 7,
+  "Task": "hello, finally fixed the damned edit functionality",
+  "Done": true
+ },
+ {
+  "ID": 8,
+  "Task": "except for the help message and/or error message",
   "Done": false
  }
 ]
