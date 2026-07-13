@@ -96,7 +96,7 @@ func main() {
 			}
 			fmt.Printf("✅ Marked task #%d as done.\n", id)
 
-		case "remove":
+		case "remove", "rm":
 			if len(args) < 2 {
 				fmt.Printf("❌ Missing task ID.")
 				continue
@@ -122,7 +122,7 @@ func main() {
 			fmt.Println("✌ Adios Amigos✌")
 			return
 		default:
-			fmt.Printf("❌ Unknown command:", command)
+			fmt.Printf("❌ Unknown command: %s\n\n", command)
 			printUsage()
 		}
 	}
